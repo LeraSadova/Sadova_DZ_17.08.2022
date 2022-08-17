@@ -15,12 +15,14 @@ void FillArray(int[] array, int length)
     {
     array[i]=new Random().Next(0, 2);
     
-    Console.Write($"{array[i]} ");
+    Console.Write($"{array[i]}, ");
     i++;
     }
 
-Console.WriteLine();
+//Console.WriteLine();
 }
 
 Console.WriteLine($"Массив из {n} элементов, заполненный 0 и 1: ");
+Console.Write("[");
 FillArray(array_new, n);
+Console.Write("]");
