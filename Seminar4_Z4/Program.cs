@@ -19,7 +19,7 @@ void FillArray(int[] array, int length)
     i++;
     }
 
-//Console.WriteLine();
+
 }
 
 Console.WriteLine($"Массив из {n} элементов, заполненный 0 и 1: ");
